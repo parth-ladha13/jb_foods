@@ -43,14 +43,22 @@
     yearEl.textContent = new Date().getFullYear();
   }
 
-  // Hero slideshow — auto-rotating product photos
+  // Hero slideshow — auto-rotating product photos, with captions + dots
   var heroSlides = document.querySelectorAll("#heroSlides .hero-slide");
+  var heroCaptions = document.querySelectorAll("#heroCaptions .hero-slide-caption");
+  var heroDots = document.querySelectorAll("#heroDots span");
   if (heroSlides.length > 1) {
     var activeIndex = 0;
     setInterval(function () {
       heroSlides[activeIndex].classList.remove("active");
+      if (heroCaptions[activeIndex]) heroCaptions[activeIndex].classList.remove("active");
+      if (heroDots[activeIndex]) heroDots[activeIndex].classList.remove("active");
+
       activeIndex = (activeIndex + 1) % heroSlides.length;
+
       heroSlides[activeIndex].classList.add("active");
+      if (heroCaptions[activeIndex]) heroCaptions[activeIndex].classList.add("active");
+      if (heroDots[activeIndex]) heroDots[activeIndex].classList.add("active");
     }, 4000);
   }
 })();
