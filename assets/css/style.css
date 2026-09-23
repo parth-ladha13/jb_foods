@@ -187,12 +187,16 @@ a {
 .page-header h1 { color: #fff; }
 .page-header p { color: rgba(255,255,255,0.85); }
 
-/* ---- Homepage hero: full-bleed photo with overlay + floating stats card ---- */
+/* ---- Homepage hero: full-bleed photo, fills the viewport as its own frame ---- */
 .hero-home {
   position: relative;
   overflow: hidden;
   background-color: var(--jb-green-900);
-  padding: 7.5rem 0 9rem;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  padding: 6rem 0 5rem;
   color: #fff;
 }
 .hero-home-slides {
@@ -284,13 +288,13 @@ a {
   transform: scale(1.3);
 }
 
+.stats-float-wrap {
+  padding: 3rem 0;
+}
 .stats-float {
   background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 20px 45px rgba(23, 48, 28, 0.18);
-  margin-top: -4rem;
-  position: relative;
-  z-index: 2;
+  box-shadow: 0 12px 32px rgba(23, 48, 28, 0.1);
   padding: 1.75rem 1rem;
 }
 .stats-float-item {
