@@ -78,8 +78,10 @@ a {
   font-weight: 700;
   font-size: 1.4rem;
   color: var(--jb-green-900) !important;
+  display: inline-flex;
+  align-items: center;
 }
-.navbar-brand span {
+.navbar-brand .brand-accent {
   color: var(--jb-green-700);
 }
 .navbar {
