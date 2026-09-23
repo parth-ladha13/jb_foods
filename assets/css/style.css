@@ -185,8 +185,25 @@ section {
 .product-card .badge {
   background-color: var(--jb-green-700);
 }
-.product-card .badge.cereal {
+.product-card .badge.pulse {
   background-color: var(--jb-gold);
+}
+.product-scientific {
+  font-style: italic;
+  color: var(--jb-text-muted);
+  font-size: 0.85rem;
+}
+.feature-list li {
+  font-size: 0.85rem;
+  color: var(--jb-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+.feature-list li i {
+  color: var(--jb-green-700);
+  font-size: 0.8rem;
 }
 .spec-table td, .spec-table th {
   padding: 0.4rem 0.6rem;

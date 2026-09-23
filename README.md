@@ -1,6 +1,6 @@
 # J.B. Foods Website
 
-Responsive marketing/lead-generation website for J.B. Foods, a premium agri products (pulses & cereals) exporter. Built as a static multi-page site using Bootstrap 5 — no build step, no backend required.
+Responsive marketing/lead-generation website for J.B. Foods (Jai Balaji Food Products), a premium spices, seeds & pulses exporter based in Jaipur, Rajasthan, established 1997. Built as a static multi-page site using Bootstrap 5 — no build step, no backend required.
 
 ## Structure
 
@@ -30,12 +30,13 @@ Then open http://localhost:8000
 
 ## Before going live — replace these placeholders
 
-- **WhatsApp number**: replace `910000000000` in the floating WhatsApp button and footer (all pages) and in `contact.html`.
-- **Phone / email / address**: update in the footer and Contact page (all pages).
-- **Enquiry form**: `contact.html` uses [Web3Forms](https://web3forms.com) (free) — sign up and replace `YOUR_WEB3FORMS_ACCESS_KEY` with your real access key.
+- **Enquiry form**: `contact.html` uses [Web3Forms](https://web3forms.com) (free) — sign up and replace `YOUR_WEB3FORMS_ACCESS_KEY` with your real access key. Without this, the enquiry form won't actually deliver submissions anywhere.
 - **Google Analytics**: uncomment and add the Measurement ID in the `<head>` of `index.html` (and copy to other pages once confirmed).
 - **Product images**: `assets/data/products.json` currently uses Unsplash stock photos as placeholders — swap `image` URLs for real product photography.
-- **Company details**: About page copy, logo (currently a generated leaf icon at `assets/img/favicon.svg`), and social media links in the footer.
+- **Social media links**: Facebook/Instagram/LinkedIn icons in the footer currently point to `#` — add real profile URLs once available.
+- **Certifications**: if J.B. Foods holds any export certifications (FSSAI is already referenced in the About copy), add a certifications/badges section with the actual certificate images — don't add badges for certifications not actually held.
+
+Contact details (WhatsApp +91 99285 99867, jbfoodsjaipur@gmail.com, Jaipur address) and the product catalogue (coriander, sesame, turmeric, groundnut, chickpeas, cumin, cardamom) are already filled in from the client's own draft content — double check these are current before launch.
 
 ## Deployment
 
