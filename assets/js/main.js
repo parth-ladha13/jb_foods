@@ -42,4 +42,15 @@
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
   }
+
+  // Hero slideshow — auto-rotating product photos
+  var heroSlides = document.querySelectorAll("#heroSlides .hero-slide");
+  if (heroSlides.length > 1) {
+    var activeIndex = 0;
+    setInterval(function () {
+      heroSlides[activeIndex].classList.remove("active");
+      activeIndex = (activeIndex + 1) % heroSlides.length;
+      heroSlides[activeIndex].classList.add("active");
+    }, 4000);
+  }
 })();

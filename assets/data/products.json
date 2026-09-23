@@ -17,7 +17,7 @@
     },
     "packaging": "25kg / 50kg PP bags, Jumbo bags on request",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1608797178894-bf7c596932da?auto=format&fit=crop&w=800&q=60"
+    "image": "assets/img/products/coriander-seeds.jpg"
   },
   {
     "id": "sesame-seeds",
@@ -37,7 +37,7 @@
     },
     "packaging": "25kg / 50kg PP bags, Jumbo bags on request",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1705026042359-2d5b761845f3?auto=format&fit=crop&w=800&q=60"
+    "image": "assets/img/products/sesame-seeds.jpg"
   },
   {
     "id": "turmeric",
@@ -77,7 +77,7 @@
     },
     "packaging": "25kg / 50kg PP bags",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1567892737950-30c4db37cd89?auto=format&fit=crop&w=800&q=60"
+    "image": "assets/img/products/groundnut.jpg"
   },
   {
     "id": "chickpeas-kabuli",
@@ -117,7 +117,7 @@
     },
     "packaging": "25kg / 50kg PP bags",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1773869910193-c7ae23145ac9?auto=format&fit=crop&w=800&q=60"
+    "image": "assets/img/products/cumin-seeds.jpg"
   },
   {
     "id": "cardamom",

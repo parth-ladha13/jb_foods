@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>J.B. Foods — Product Catalogue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="assets/css/style.css?v=3" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  body { background: #fff; }
+  .pdf-page { page-break-after: always; min-height: 250mm; }
+  .pdf-page:last-child { page-break-after: auto; }
+  .pdf-cover { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; min-height: 250mm; background: linear-gradient(160deg, var(--jb-green-900) 0%, var(--jb-green-700) 100%); color: #fff; margin: -18mm -16mm; padding: 18mm 16mm; }
+  .pdf-cover img { width: 90px; height: 90px; margin-bottom: 1.5rem; }
+  .pdf-cover h1 { color: #fff; font-size: 2.6rem; margin-bottom: 0.5rem; }
+  .pdf-cover .tagline { color: rgba(255,255,255,.85); font-size: 1.1rem; margin-bottom: 2.5rem; }
+  .pdf-cover .cover-badge { border: 1px solid rgba(255,255,255,.5); border-radius: 2rem; padding: 0.5rem 1.5rem; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 1rem; }
+  .pdf-cover .cover-footer { margin-top: 4rem; font-size: 0.9rem; color: rgba(255,255,255,.75); }
+  .pdf-section-title { font-size: 1.6rem; margin-bottom: 1rem; border-bottom: 2px solid var(--jb-terracotta); padding-bottom: 0.5rem; }
+  .pdf-product { page-break-inside: avoid; border: 1px solid rgba(0,0,0,.08); border-radius: 0.75rem; overflow: hidden; margin-bottom: 1.25rem; display: flex; }
+  .pdf-product img { width: 140px; height: 140px; object-fit: cover; flex-shrink: 0; }
+  .pdf-product .pdf-product-body { padding: 0.85rem 1.1rem; flex: 1; }
+  .pdf-product h4 { font-size: 1.05rem; margin-bottom: 0.1rem; }
+  .pdf-product .product-scientific { margin-bottom: 0.4rem; }
+  .pdf-product p.desc { font-size: 0.85rem; color: var(--jb-text-muted); margin-bottom: 0.4rem; }
+  .pdf-spec-line { font-size: 0.78rem; color: var(--jb-text-muted); }
+  .pdf-spec-line strong { color: var(--jb-text); }
+  .pdf-footer-contact { background: var(--jb-green-900); color: #fff; border-radius: 1rem; padding: 2rem; margin-top: 1rem; }
+  .pdf-footer-contact h3 { color: #fff; }
+  .pdf-footer-contact a { color: #fff; }
+</style>
+</head>
+<body>
+
+  <!-- Cover -->
+  <div class="pdf-page pdf-cover">
+    <img src="assets/img/logo-mark-light.svg" alt="">
+    <span class="cover-badge">Product Catalogue</span>
+    <h1>J.B. Foods</h1>
+    <p class="tagline">Jai Balaji Food Products — Premium Spices, Seeds &amp; Pulses Exporter</p>
+    <p class="tagline">Established 1997 · Jaipur, Rajasthan, India</p>
+    <div class="cover-footer">
+      jbfoodsjaipur@gmail.com &nbsp;·&nbsp; +91 99285 99867 &nbsp;·&nbsp; www.jbfoods.example
+    </div>
+  </div>
+
+  <!-- Company Overview -->
+  <div class="pdf-page">
+    <h2 class="pdf-section-title">Who We Are</h2>
+    <p>Indian spices have a vibrant heritage. Some of the spices used in Indian households, like turmeric, coriander and cardamom, have been around since the 8th century BC, and continue to make a massive impact on the global market.</p>
+    <p>Our spices are freshly ground, handpicked and have an excellent flavour. We're providing the purest, most authentic spices, carefully sourced from local farms and crafted with love — with hygiene and quality ensured through meticulous packaging and rigorous laboratory testing, adhering to the food safety standards set by FSSAI.</p>
+
+    <div class="row text-center my-4">
+      <div class="col-3"><div class="stat-number" style="font-size:1.8rem;">28+</div><div class="text-muted-soft small">Years Experience</div></div>
+      <div class="col-3"><div class="stat-number" style="font-size:1.8rem;">1997</div><div class="text-muted-soft small">Established</div></div>
+      <div class="col-3"><div class="stat-number" style="font-size:1.8rem;">Global</div><div class="text-muted-soft small">Export Reach</div></div>
+      <div class="col-3"><div class="stat-number" style="font-size:1.8rem;">FSSAI</div><div class="text-muted-soft small">Compliant</div></div>
+    </div>
+
+    <h2 class="pdf-section-title mt-5">Why J.B. Foods</h2>
+    <div class="row">
+      <div class="col-6 mb-3">
+        <strong>28 Years of Excellence</strong>
+        <p class="text-muted-soft small mb-0">Nearly three decades of expertise in spice and pulses procurement and processing.</p>
+      </div>
+      <div class="col-6 mb-3">
+        <strong>Quality Assurance</strong>
+        <p class="text-muted-soft small mb-0">Rigorous quality control at every stage, sourcing through to final packaging.</p>
+      </div>
+      <div class="col-6 mb-3">
+        <strong>Global Standards</strong>
+        <p class="text-muted-soft small mb-0">Products processed to meet international export market expectations.</p>
+      </div>
+      <div class="col-6 mb-3">
+        <strong>Competitive Pricing</strong>
+        <p class="text-muted-soft small mb-0">Direct farmer sourcing ensures the best prices without compromising quality.</p>
+      </div>
+      <div class="col-6 mb-3">
+        <strong>Timely Delivery</strong>
+        <p class="text-muted-soft small mb-0">Efficient logistics and export documentation for on-time delivery.</p>
+      </div>
+      <div class="col-6 mb-3">
+        <strong>Custom Packaging</strong>
+        <p class="text-muted-soft small mb-0">Flexible packaging tailored to your requirements, retail or bulk.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Products page 1 -->
+  <div class="pdf-page" id="products-1"></div>
+
+  <!-- Products page 2 + Contact -->
+  <div class="pdf-page" id="products-2"></div>
+
+  <script>
+    fetch('assets/data/products.json')
+      .then(function (res) { return res.json(); })
+      .then(function (products) {
+        function productHtml(p) {
+          var specs = Object.keys(p.specs).map(function (k) {
+            return '<span class="pdf-spec-line"><strong>' + k + ':</strong> ' + p.specs[k] + '</span>';
+          }).join(' &nbsp;&middot;&nbsp; ');
+          return (
+            '<div class="pdf-product">' +
+              '<img src="' + p.image + '" alt="' + p.name + '">' +
+              '<div class="pdf-product-body">' +
+                '<h4>' + p.name + '</h4>' +
+                '<p class="product-scientific">' + p.scientificName + ' &nbsp;·&nbsp; ' + p.category + '</p>' +
+                '<p class="desc">' + p.description + '</p>' +
+                '<div>' + specs + '</div>' +
+                '<div class="pdf-spec-line mt-1"><strong>Packaging:</strong> ' + p.packaging + '</div>' +
+              '</div>' +
+            '</div>'
+          );
+        }
+
+        var half = Math.ceil(products.length / 2);
+        var page1 = products.slice(0, half);
+        var page2 = products.slice(half);
+
+        document.getElementById('products-1').innerHTML =
+          '<h2 class="pdf-section-title">Our Products</h2>' + page1.map(productHtml).join('');
+
+        document.getElementById('products-2').innerHTML =
+          page2.map(productHtml).join('') +
+          '<div class="pdf-footer-contact">' +
+            '<h3 class="mb-3">Get in Touch</h3>' +
+            '<p class="mb-1"><i class="bi bi-geo-alt me-2"></i>B-76, Rajdhani Krishi Upaj Mandi, Kukarkhera, Jaipur, Rajasthan, 302003</p>' +
+            '<p class="mb-1"><i class="bi bi-telephone me-2"></i>+91 99285 99867</p>' +
+            '<p class="mb-1"><i class="bi bi-envelope me-2"></i>jbfoodsjaipur@gmail.com</p>' +
+            '<p class="mb-0"><i class="bi bi-whatsapp me-2"></i>+91 99285 99867</p>' +
+          '</div>';
+
+        document.title = 'ready-for-pdf';
+      });
+  </script>
+</body>
+</html>

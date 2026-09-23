@@ -5,17 +5,30 @@ Responsive marketing/lead-generation website for J.B. Foods (Jai Balaji Food Pro
 ## Structure
 
 ```
-index.html          Home
+index.html          Home (rotating hero, products, company/warehousing/farming, certifications)
 about.html           About Us & Company Profile
 products.html        Product catalogue with search & category filter
-services.html        Services / export process
-faq.html              FAQ
 contact.html          Enquiry form + contact details
-assets/css/style.css  Site styling (green/nature theme)
-assets/js/main.js     Nav highlighting, form validation, footer year
+catalogue-print.html  Source template for the downloadable PDF catalogue (not linked in nav)
+assets/css/style.css  Site styling (forest green / terracotta theme)
+assets/js/main.js     Nav highlighting, form validation, footer year, hero slideshow
 assets/js/products.js Product rendering, search, filter, detail modal
 assets/data/products.json  Product catalogue data (edit this to add/update products)
+assets/img/products/  Real client-provided product photos
+assets/downloads/JB-Foods-Product-Catalogue.pdf  Downloadable PDF catalogue (linked from nav "Catalogue")
 robots.txt, sitemap.xml    Basic SEO files
+```
+
+### Regenerating the PDF catalogue
+
+If products or company info change, regenerate the PDF from `catalogue-print.html` (which pulls live from `products.json`):
+
+```
+python3 -m http.server 8123 &
+google-chrome --headless --disable-gpu --no-sandbox \
+  --print-to-pdf="assets/downloads/JB-Foods-Product-Catalogue.pdf" \
+  --no-pdf-header-footer --virtual-time-budget=4000 \
+  http://localhost:8123/catalogue-print.html
 ```
 
 ## Running locally

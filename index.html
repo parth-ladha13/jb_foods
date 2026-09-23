@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css?v=3" rel="stylesheet">
 
   <!-- Google Analytics: replace G-XXXXXXXXXX with the client's Measurement ID -->
   <!--
@@ -46,9 +46,8 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="assets/downloads/JB-Foods-Product-Catalogue.pdf" target="_blank" rel="noopener">Catalogue</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
           <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-primary" href="contact.html">Enquire Now</a></li>
         </ul>
       </div>
@@ -57,6 +56,12 @@
 
   <!-- Hero -->
   <header class="hero-home">
+    <div class="hero-home-slides" id="heroSlides">
+      <div class="hero-slide active" style="background-image:url('assets/img/products/coriander-seeds.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/img/products/sesame-seeds.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/img/products/cumin-seeds.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/img/products/groundnut.jpg')"></div>
+    </div>
     <div class="hero-home-overlay"></div>
     <div class="container position-relative">
       <div class="row justify-content-center text-center">
@@ -94,6 +99,164 @@
       </div>
     </div>
   </div>
+
+  <!-- Product Details -->
+  <section class="bg-soft">
+    <div class="container">
+      <div class="row align-items-end mb-5">
+        <div class="col-md-8">
+          <div class="section-eyebrow mb-2">Our Range</div>
+          <h2 class="mb-0">Our Products</h2>
+          <p class="text-muted-soft mt-2 mb-0">Export-grade spices, seeds and pulses, sorted and graded to international standards.</p>
+        </div>
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+          <a href="products.html" class="btn btn-outline-primary">View All Products <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="row g-4" id="productGrid">
+        <div class="col-12 text-center py-5 text-muted-soft">Loading products…</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Description -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="assets/img/products/coriander-seeds-alt.jpg" class="img-fluid rounded-4 shadow" alt="Close-up of coriander seeds">
+        </div>
+        <div class="col-lg-6">
+          <div class="section-eyebrow mb-2">Who We Are</div>
+          <h2 class="mb-3">Purifying the Essence of Flavours</h2>
+          <p class="text-muted-soft">Indian spices have a vibrant heritage. Some of the spices used in Indian households, like turmeric, coriander and cardamom, have been around since the 8th century BC, and continue to make a massive impact on the global market.</p>
+          <p class="text-muted-soft mb-4">Our spices are freshly ground, handpicked and have an excellent flavour. We're providing the purest, most authentic spices, carefully sourced from local farms and crafted with love — with hygiene and quality ensured through meticulous packaging and rigorous laboratory testing, adhering to the food safety standards set by FSSAI.</p>
+          <a href="about.html" class="btn btn-outline-primary">Learn More About Us <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Warehousing -->
+  <section class="bg-soft">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 order-lg-2">
+          <img src="https://images.unsplash.com/photo-1530496216518-a53d24e99c31?auto=format&fit=crop&w=900&q=70" class="img-fluid rounded-4 shadow" alt="Warehouse storage sacks">
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="section-eyebrow mb-2">Warehousing</div>
+          <h2 class="mb-3">Built to Preserve Quality</h2>
+          <p class="text-muted-soft mb-4">Our cutting-edge warehouse facility spans 20,000 square feet and is purpose-built to meet the storage demands of grains and seeds — outfitted with all the necessary features and safeguards to ensure the quality and safety of your agricultural goods, from anti-theft mechanisms to effective pest control techniques.</p>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>20,000 sq. ft. storage facility</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Anti-theft mechanisms</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Effective pest control</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Built for grains &amp; seeds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Farming -->
+  <section>
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1642073537056-20608544f111?auto=format&fit=crop&w=900&q=70" class="img-fluid rounded-4 shadow" alt="Fresh dates on a date palm tree at BHURA Farms">
+        </div>
+        <div class="col-lg-6">
+          <div class="section-eyebrow mb-2">Farming</div>
+          <h2 class="mb-3">BHURA Farms, Deshnoke</h2>
+          <p class="text-muted-soft mb-4">Nestled in the scenic landscapes of Rajasthan, near Deshnoke, BHURA Farms is where we cultivate the finest quality dates, revered for their freshness and exceptional taste. Unlike traditional dried varieties, we handpick our dates at peak ripeness and sell them fresh, straight from the palm trees.</p>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Hand-picked at peak ripeness</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Sold fresh, not dried</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Sustainable farming practices</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-success"></i>
+                <span>Rajasthan-grown, near Deshnoke</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quality & Compliance -->
+  <section class="bg-soft">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-7">
+          <div class="section-eyebrow mb-2">Certifications</div>
+          <h2>Quality &amp; Compliance</h2>
+          <p class="text-muted-soft">Food safety and compliance are non-negotiable at every stage of our process.</p>
+        </div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm text-center">
+            <div class="icon-box mx-auto mb-3"><i class="bi bi-patch-check"></i></div>
+            <h5>FSSAI Compliant</h5>
+            <p class="text-muted-soft mb-0">Our processing and packaging adhere to food safety standards set by the FSSAI.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm text-center">
+            <div class="icon-box mx-auto mb-3"><i class="bi bi-clipboard-check"></i></div>
+            <h5>Batch-Tested Quality</h5>
+            <p class="text-muted-soft mb-0">Every consignment is tested for purity, moisture and admixture before dispatch.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 p-4 border-0 shadow-sm text-center">
+            <div class="icon-box mx-auto mb-3"><i class="bi bi-file-earmark-text"></i></div>
+            <h5>Export Documentation</h5>
+            <p class="text-muted-soft mb-0">Complete, accurate documentation handled in-house for a smooth import process.</p>
+          </div>
+        </div>
+      </div>
+      <p class="text-center text-muted-soft small mt-4 mb-0">Additional certifications available on request.</p>
+    </div>
+  </section>
 
   <!-- Why Choose Us -->
   <section>
@@ -152,24 +315,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Featured Products -->
-  <section class="bg-soft">
-    <div class="container">
-      <div class="row align-items-end mb-5">
-        <div class="col-md-8">
-          <div class="section-eyebrow mb-2">Our Range</div>
-          <h2 class="mb-0">Featured Products</h2>
-        </div>
-        <div class="col-md-4 text-md-end mt-3 mt-md-0">
-          <a href="products.html" class="btn btn-outline-primary">View All Products <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div>
-      <div class="row g-4" id="productGrid">
-        <div class="col-12 text-center py-5 text-muted-soft">Loading products…</div>
       </div>
     </div>
   </section>
@@ -237,8 +382,8 @@
           <ul class="list-unstyled">
             <li class="mb-2"><a href="about.html">About Us</a></li>
             <li class="mb-2"><a href="products.html">Products</a></li>
-            <li class="mb-2"><a href="services.html">Services</a></li>
-            <li class="mb-2"><a href="faq.html">FAQ</a></li>
+            <li class="mb-2"><a href="assets/downloads/JB-Foods-Product-Catalogue.pdf" target="_blank" rel="noopener">Catalogue</a></li>
+            <li class="mb-2"><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-6 col-md-3">
@@ -274,8 +419,8 @@
   </a>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/products.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () { JBProducts.load("productGrid", 3); });</script>
+  <script src="assets/js/main.js?v=3"></script>
+  <script src="assets/js/products.js?v=3"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () { JBProducts.load("productGrid", 7); });</script>
 </body>
 </html>

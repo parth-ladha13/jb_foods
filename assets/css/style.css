@@ -137,11 +137,25 @@ a {
 /* ---- Homepage hero: full-bleed photo with overlay + floating stats card ---- */
 .hero-home {
   position: relative;
-  background-image: url('https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1600&q=70');
-  background-size: cover;
-  background-position: center;
+  overflow: hidden;
+  background-color: var(--jb-green-900);
   padding: 7.5rem 0 9rem;
   color: #fff;
+}
+.hero-home-slides {
+  position: absolute;
+  inset: 0;
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.8s ease;
+}
+.hero-slide.active {
+  opacity: 1;
 }
 .hero-home-overlay {
   position: absolute;
