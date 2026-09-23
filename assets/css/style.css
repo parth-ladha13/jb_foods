@@ -104,6 +104,59 @@ a {
   white-space: nowrap;
 }
 
+/* ---- Navbar overlay (floats over the homepage hero photo) ---- */
+.navbar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: transparent;
+  box-shadow: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar-overlay .navbar-brand,
+.navbar-overlay .nav-link {
+  color: #fff !important;
+  text-shadow: 0 1px 6px rgba(0,0,0,.35);
+}
+.navbar-overlay .navbar-brand .brand-accent {
+  color: #f0b28e;
+}
+.navbar-overlay .nav-link.active,
+.navbar-overlay .nav-link:hover {
+  color: #f0b28e !important;
+}
+.navbar-overlay .navbar-toggler-icon {
+  filter: invert(1) brightness(2);
+}
+.navbar-overlay .navbar-collapse.show,
+.navbar-overlay .navbar-collapse.collapsing {
+  background-color: rgba(23, 48, 28, 0.97);
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+.navbar-overlay.navbar-scrolled {
+  background-color: rgba(246, 241, 228, 0.97);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+}
+.navbar-overlay.navbar-scrolled .navbar-brand,
+.navbar-overlay.navbar-scrolled .nav-link {
+  color: var(--jb-text) !important;
+  text-shadow: none;
+}
+.navbar-overlay.navbar-scrolled .navbar-brand .brand-accent {
+  color: var(--jb-terracotta) !important;
+}
+.navbar-overlay.navbar-scrolled .nav-link.active,
+.navbar-overlay.navbar-scrolled .nav-link:hover {
+  color: var(--jb-terracotta) !important;
+}
+.navbar-overlay.navbar-scrolled .navbar-toggler-icon {
+  filter: none;
+}
+
 /* ---- Simple gradient banner (used for in-page CTA strips and interior page headers) ---- */
 .hero {
   background: linear-gradient(135deg, var(--jb-green-900) 0%, var(--jb-green-700) 100%);

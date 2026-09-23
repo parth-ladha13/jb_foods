@@ -43,6 +43,22 @@
     yearEl.textContent = new Date().getFullYear();
   }
 
+  // Transparent navbar overlay on the homepage hero — solid once scrolled past it
+  var overlayNav = document.querySelector(".navbar-overlay");
+  if (overlayNav) {
+    var heroEl = document.querySelector(".hero-home");
+    var toggleNavScroll = function () {
+      var threshold = heroEl ? heroEl.offsetHeight - overlayNav.offsetHeight : 80;
+      if (window.scrollY > threshold) {
+        overlayNav.classList.add("navbar-scrolled");
+      } else {
+        overlayNav.classList.remove("navbar-scrolled");
+      }
+    };
+    toggleNavScroll();
+    window.addEventListener("scroll", toggleNavScroll, { passive: true });
+  }
+
   // Hero slideshow — auto-rotating product photos, with captions + dots
   var heroSlides = document.querySelectorAll("#heroSlides .hero-slide");
   var heroCaptions = document.querySelectorAll("#heroCaptions .hero-slide-caption");
