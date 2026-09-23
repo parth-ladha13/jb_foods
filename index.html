@@ -16,7 +16,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
@@ -56,50 +56,44 @@
   </nav>
 
   <!-- Hero -->
-  <header class="hero">
-    <div class="container py-5">
-      <div class="row align-items-center py-4">
-        <div class="col-lg-6">
-          <span class="badge bg-light text-success mb-3 px-3 py-2">Trusted Since 1997</span>
-          <h1 class="display-5 fw-bold mb-3">From India's Heartland to the World's Kitchen</h1>
-          <p class="lead mb-4">J.B. Foods (Jai Balaji Food Products) provides the purest, most authentic spices, seeds and pulses — carefully sourced from local farmers and crafted with care for over 28 years.</p>
-          <div class="d-flex flex-wrap gap-3">
+  <header class="hero-home">
+    <div class="hero-home-overlay"></div>
+    <div class="container position-relative">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9">
+          <span class="hero-eyebrow">Est. 1997 · Jaipur, Rajasthan</span>
+          <h1 class="hero-home-title mb-3">From India's Heartland to the World's Kitchen</h1>
+          <p class="hero-home-lead mb-4">J.B. Foods (Jai Balaji Food Products) provides the purest, most authentic spices, seeds and pulses — carefully sourced from local farmers and crafted with care for over 28 years.</p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center">
             <a href="products.html" class="btn btn-gold btn-lg px-4">Explore Products</a>
             <a href="contact.html" class="btn btn-outline-light btn-lg px-4">Get Quote</a>
-          </div>
-        </div>
-        <div class="col-lg-6 mt-5 mt-lg-0">
-          <div class="hero-img-wrap">
-            <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=70" class="img-fluid" alt="Assorted pulses and grains">
           </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Stats -->
-  <section class="py-4 bg-white border-bottom">
-    <div class="container">
-      <div class="row text-center gy-4">
-        <div class="col-6 col-md-3">
-          <div class="stat-number">28+</div>
-          <div class="text-muted-soft">Years Experience</div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="stat-number">1997</div>
-          <div class="text-muted-soft">Established</div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="stat-number">Global</div>
-          <div class="text-muted-soft">Export Reach</div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="stat-number">FSSAI</div>
-          <div class="text-muted-soft">Compliant</div>
-        </div>
+  <!-- Floating stats card -->
+  <div class="container">
+    <div class="stats-float row text-center g-0">
+      <div class="col-6 col-md-3 stats-float-item">
+        <div class="stat-number">28+</div>
+        <div class="text-muted-soft small">Years Experience</div>
+      </div>
+      <div class="col-6 col-md-3 stats-float-item">
+        <div class="stat-number">1997</div>
+        <div class="text-muted-soft small">Established</div>
+      </div>
+      <div class="col-6 col-md-3 stats-float-item">
+        <div class="stat-number">Global</div>
+        <div class="text-muted-soft small">Export Reach</div>
+      </div>
+      <div class="col-6 col-md-3 stats-float-item">
+        <div class="stat-number">FSSAI</div>
+        <div class="text-muted-soft small">Compliant</div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Why Choose Us -->
   <section>
@@ -111,47 +105,51 @@
           <p class="text-muted-soft">From sourcing to shipment, every batch is graded, tested and packed to meet global import standards.</p>
         </div>
       </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 p-4 border-0 shadow-sm">
-            <div class="icon-box mb-3"><i class="bi bi-award"></i></div>
-            <h5>28 Years of Excellence</h5>
-            <p class="text-muted-soft mb-0">Nearly three decades of expertise in spice and pulses procurement and processing, with consistent quality delivery.</p>
+      <div class="row g-5">
+        <div class="col-md-6">
+          <div class="feature-row">
+            <span class="feature-row-num">01</span>
+            <div>
+              <h5>28 Years of Excellence</h5>
+              <p class="text-muted-soft mb-0">Nearly three decades of expertise in spice and pulses procurement and processing, with consistent quality delivery.</p>
+            </div>
+          </div>
+          <div class="feature-row">
+            <span class="feature-row-num">03</span>
+            <div>
+              <h5>Global Standards</h5>
+              <p class="text-muted-soft mb-0">Products processed to meet international quality expectations for export markets, adhering to FSSAI food safety standards.</p>
+            </div>
+          </div>
+          <div class="feature-row">
+            <span class="feature-row-num">05</span>
+            <div>
+              <h5>Timely Delivery</h5>
+              <p class="text-muted-soft mb-0">Efficient logistics and established export documentation ensure on-time delivery to your destination.</p>
+            </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 p-4 border-0 shadow-sm">
-            <div class="icon-box mb-3"><i class="bi bi-patch-check"></i></div>
-            <h5>Quality Assurance</h5>
-            <p class="text-muted-soft mb-0">Rigorous quality control at every stage, from raw material sourcing through to final packaging.</p>
+        <div class="col-md-6">
+          <div class="feature-row">
+            <span class="feature-row-num">02</span>
+            <div>
+              <h5>Quality Assurance</h5>
+              <p class="text-muted-soft mb-0">Rigorous quality control at every stage, from raw material sourcing through to final packaging.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 p-4 border-0 shadow-sm">
-            <div class="icon-box mb-3"><i class="bi bi-globe-asia-australia"></i></div>
-            <h5>Global Standards</h5>
-            <p class="text-muted-soft mb-0">Products processed to meet international quality expectations for export markets, adhering to FSSAI food safety standards.</p>
+          <div class="feature-row">
+            <span class="feature-row-num">04</span>
+            <div>
+              <h5>Competitive Pricing</h5>
+              <p class="text-muted-soft mb-0">Direct sourcing from farmers ensures the best prices without compromising on quality.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 p-4 border-0 shadow-sm">
-            <div class="icon-box mb-3"><i class="bi bi-graph-up-arrow"></i></div>
-            <h5>Competitive Pricing</h5>
-            <p class="text-muted-soft mb-0">Direct sourcing from farmers ensures the best prices without compromising on quality.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 p-4 border-0 shadow-sm">
-            <div class="icon-box mb-3"><i class="bi bi-truck"></i></div>
-            <h5>Timely Delivery</h5>
-            <p class="text-muted-soft mb-0">Efficient logistics and established export documentation ensure on-time delivery to your destination.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card h-100 p-4 border-0 shadow-sm">
-            <div class="icon-box mb-3"><i class="bi bi-box-seam"></i></div>
-            <h5>Custom Packaging</h5>
-            <p class="text-muted-soft mb-0">Flexible packaging solutions tailored to your specific requirements, for retail and bulk orders alike.</p>
+          <div class="feature-row">
+            <span class="feature-row-num">06</span>
+            <div>
+              <h5>Custom Packaging</h5>
+              <p class="text-muted-soft mb-0">Flexible packaging solutions tailored to your specific requirements, for retail and bulk orders alike.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -278,6 +276,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/products.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () { JBProducts.load("productGrid", 6); });</script>
+  <script>document.addEventListener("DOMContentLoaded", function () { JBProducts.load("productGrid", 3); });</script>
 </body>
 </html>

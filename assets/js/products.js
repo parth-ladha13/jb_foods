@@ -10,31 +10,39 @@
     return category === "Pulses" ? "badge pulse" : "badge";
   }
 
-  function featureList(features) {
+  function featurePills(features) {
     if (!features || !features.length) return "";
-    return '<ul class="feature-list list-unstyled mb-3">' +
+    return '<div class="d-flex flex-wrap gap-2 mb-3">' +
       features.map(function (f) {
-        return '<li><i class="bi bi-check-circle-fill"></i>' + f + '</li>';
+        return '<span class="feature-pill"><i class="bi bi-check-circle-fill"></i>' + f + '</span>';
       }).join("") +
-      '</ul>';
+      '</div>';
   }
 
   function productCard(p) {
     return (
-      '<div class="col-sm-6 col-lg-4 product-item" data-name="' + p.name.toLowerCase() +
+      '<div class="col-12 product-item" data-name="' + p.name.toLowerCase() +
       '" data-category="' + p.category + '">' +
-        '<div class="card product-card h-100 shadow-sm">' +
-          '<img src="' + p.image + '" alt="' + p.name + '" loading="lazy">' +
-          '<div class="card-body d-flex flex-column">' +
-            '<span class="' + badgeClass(p.category) + ' mb-2 align-self-start">' + p.category + '</span>' +
-            '<h5 class="card-title mb-0">' + p.name + '</h5>' +
-            '<p class="product-scientific mb-2">' + p.scientificName + '</p>' +
-            '<p class="text-muted-soft small mb-2">' + p.description + '</p>' +
-            featureList(p.features) +
-            '<button type="button" class="btn btn-outline-primary btn-sm mt-auto" ' +
-              'data-bs-toggle="modal" data-bs-target="#productModal" data-product-id="' + p.id + '">' +
-              'View Details' +
-            '</button>' +
+        '<div class="card product-card-h">' +
+          '<div class="row g-0 align-items-start">' +
+            '<div class="col-12 col-md-4">' +
+              '<img src="' + p.image + '" alt="' + p.name + '" class="product-card-h-img" loading="lazy">' +
+            '</div>' +
+            '<div class="col-12 col-md-8">' +
+              '<div class="card-body d-flex flex-column">' +
+                '<div class="d-flex align-items-start justify-content-between gap-2 mb-1">' +
+                  '<h5 class="card-title mb-0">' + p.name + '</h5>' +
+                  '<span class="' + badgeClass(p.category) + '">' + p.category + '</span>' +
+                '</div>' +
+                '<p class="product-scientific mb-2">' + p.scientificName + '</p>' +
+                '<p class="text-muted-soft small mb-3">' + p.description + '</p>' +
+                featurePills(p.features) +
+                '<button type="button" class="btn btn-outline-primary btn-sm mt-2 align-self-start" ' +
+                  'data-bs-toggle="modal" data-bs-target="#productModal" data-product-id="' + p.id + '">' +
+                  'View Details' +
+                '</button>' +
+              '</div>' +
+            '</div>' +
           '</div>' +
         '</div>' +
       '</div>'

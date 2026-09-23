@@ -5,11 +5,19 @@
     "scientificName": "Coriandrum sativum",
     "category": "Spices & Seeds",
     "description": "Premium quality coriander seeds sourced from the finest growing regions, cleaned and graded for consistent size and rich aroma.",
-    "features": ["High purity", "Machine cleaned", "Uniform size"],
-    "specs": { "Purity": "98% min", "Moisture": "10% max", "Admixture": "1% max" },
+    "features": [
+      "High purity",
+      "Machine cleaned",
+      "Uniform size"
+    ],
+    "specs": {
+      "Purity": "98% min",
+      "Moisture": "10% max",
+      "Admixture": "1% max"
+    },
     "packaging": "25kg / 50kg PP bags, Jumbo bags on request",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=60"
+    "image": "https://images.unsplash.com/photo-1608797178894-bf7c596932da?auto=format&fit=crop&w=800&q=60"
   },
   {
     "id": "sesame-seeds",
@@ -17,11 +25,19 @@
     "scientificName": "Sesamum indicum",
     "category": "Spices & Seeds",
     "description": "Natural white and hulled sesame seeds with high oil content, sorted for bold size and consistent colour.",
-    "features": ["High oil content", "Natural white", "Bold size"],
-    "specs": { "Purity": "99% min", "Moisture": "6% max", "Oil Content": "48-50%" },
+    "features": [
+      "High oil content",
+      "Natural white",
+      "Bold size"
+    ],
+    "specs": {
+      "Purity": "99% min",
+      "Moisture": "6% max",
+      "Oil Content": "48-50%"
+    },
     "packaging": "25kg / 50kg PP bags, Jumbo bags on request",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1615485500834-bc10199bc727?auto=format&fit=crop&w=800&q=60"
+    "image": "https://images.unsplash.com/photo-1705026042359-2d5b761845f3?auto=format&fit=crop&w=800&q=60"
   },
   {
     "id": "turmeric",
@@ -29,11 +45,19 @@
     "scientificName": "Curcuma longa",
     "category": "Spices & Seeds",
     "description": "Vibrant yellow turmeric with high curcumin content, bright natural colour and strong aroma, available as finger or powder.",
-    "features": ["High curcumin", "Bright colour", "Strong aroma"],
-    "specs": { "Curcumin Content": "3-5%", "Moisture": "10% max", "Form": "Finger / Powder" },
+    "features": [
+      "High curcumin",
+      "Bright colour",
+      "Strong aroma"
+    ],
+    "specs": {
+      "Curcumin Content": "3-5%",
+      "Moisture": "10% max",
+      "Form": "Finger / Powder"
+    },
     "packaging": "25kg / 50kg PP bags",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=60"
+    "image": "https://images.unsplash.com/photo-1615485500834-bc10199bc727?auto=format&fit=crop&w=800&q=60"
   },
   {
     "id": "groundnut",
@@ -41,8 +65,16 @@
     "scientificName": "Arachis hypogaea",
     "category": "Spices & Seeds",
     "description": "Bold and Java quality groundnuts (peanuts) with high oil content, sorted for uniform kernel size and cleanliness.",
-    "features": ["Bold size", "High oil content", "Quality kernels"],
-    "specs": { "Counts": "40/50, 50/60", "Moisture": "8% max", "Admixture": "1% max" },
+    "features": [
+      "Bold size",
+      "High oil content",
+      "Quality kernels"
+    ],
+    "specs": {
+      "Counts": "40/50, 50/60",
+      "Moisture": "8% max",
+      "Admixture": "1% max"
+    },
     "packaging": "25kg / 50kg PP bags",
     "origin": "India",
     "image": "https://images.unsplash.com/photo-1567892737950-30c4db37cd89?auto=format&fit=crop&w=800&q=60"
@@ -53,11 +85,19 @@
     "scientificName": "Cicer arietinum",
     "category": "Pulses",
     "description": "Premium quality chickpeas (Kabuli Chana) with excellent taste and texture, sorted for uniform size and high protein content.",
-    "features": ["High protein", "Uniform size", "Premium grade"],
-    "specs": { "Purity": "98% min", "Moisture": "12% max", "Sizes Available": "7mm, 8mm, 9mm, 10mm+" },
+    "features": [
+      "High protein",
+      "Uniform size",
+      "Premium grade"
+    ],
+    "specs": {
+      "Purity": "98% min",
+      "Moisture": "12% max",
+      "Sizes Available": "7mm, 8mm, 9mm, 10mm+"
+    },
     "packaging": "25kg / 50kg PP bags, Jumbo bags on request",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1610725664285-7c57e6eeac3f?auto=format&fit=crop&w=800&q=60"
+    "image": "https://images.unsplash.com/photo-1644432757699-bb5a01e8fb0e?auto=format&fit=crop&w=800&q=60"
   },
   {
     "id": "cumin-seeds",
@@ -65,11 +105,19 @@
     "scientificName": "Cuminum cyminum",
     "category": "Spices & Seeds",
     "description": "Aromatic cumin seeds with intense flavour and rich oil content, cleaned and graded for bold, uniform seeds.",
-    "features": ["Strong aroma", "High volatile oil", "Bold seeds"],
-    "specs": { "Purity": "99% min", "Moisture": "8% max", "Volatile Oil": "2.5-4%" },
+    "features": [
+      "Strong aroma",
+      "High volatile oil",
+      "Bold seeds"
+    ],
+    "specs": {
+      "Purity": "99% min",
+      "Moisture": "8% max",
+      "Volatile Oil": "2.5-4%"
+    },
     "packaging": "25kg / 50kg PP bags",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1596040033229-6c1b6e6e0e6a?auto=format&fit=crop&w=800&q=60"
+    "image": "https://images.unsplash.com/photo-1773869910193-c7ae23145ac9?auto=format&fit=crop&w=800&q=60"
   },
   {
     "id": "cardamom",
@@ -77,10 +125,17 @@
     "scientificName": "Elettaria cardamomum",
     "category": "Spices & Seeds",
     "description": "Premium green cardamom pods with intense aroma and bold size, hand-picked and graded to export specification.",
-    "features": ["Bold green pods", "Strong aroma", "Premium quality"],
-    "specs": { "Size": "7mm - 8mm bold", "Moisture": "10% max" },
+    "features": [
+      "Bold green pods",
+      "Strong aroma",
+      "Premium quality"
+    ],
+    "specs": {
+      "Size": "7mm - 8mm bold",
+      "Moisture": "10% max"
+    },
     "packaging": "5kg / 25kg bags",
     "origin": "India",
-    "image": "https://images.unsplash.com/photo-1599909533144-b258e40e4ea0?auto=format&fit=crop&w=800&q=60"
+    "image": "https://images.unsplash.com/photo-1622824497447-b284a5493027?auto=format&fit=crop&w=800&q=60"
   }
 ]
