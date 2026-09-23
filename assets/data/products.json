@@ -1,0 +1,145 @@
+[
+  {
+    "id": "chickpeas-kabuli",
+    "name": "Kabuli Chickpeas",
+    "category": "Pulses",
+    "tagline": "Bold, creamy chickpeas graded for export",
+    "description": "Premium Kabuli chickpeas sourced from prime growing belts, sorted for uniform size and colour. Popular for hummus, salads and canning.",
+    "specs": { "Purity": "98% min", "Moisture": "12% max", "Admixture": "1% max", "Sizes Available": "7mm, 8mm, 9mm, 10mm+" },
+    "packaging": "25kg / 50kg PP bags, Jumbo bags on request",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1610725664285-7c57e6eeac3f?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "chickpeas-desi",
+    "name": "Desi Chickpeas (Chana)",
+    "category": "Pulses",
+    "tagline": "Small brown chana with rich flavour",
+    "description": "High-quality Desi chickpeas, cleaned and graded to international specifications. Widely used for chana dal and besan production.",
+    "specs": { "Purity": "98% min", "Moisture": "12% max", "Admixture": "1% max", "Sizes Available": "5mm - 7mm" },
+    "packaging": "25kg / 50kg PP bags, Jumbo bags on request",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1612257999691-fa74d3f9e94b?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "toor-dal",
+    "name": "Toor Dal (Pigeon Pea)",
+    "category": "Pulses",
+    "tagline": "Split pigeon pea, hand-picked quality",
+    "description": "Toor / Arhar dal processed under strict quality control, free from stones and foreign matter, ready for retail or bulk packaging.",
+    "specs": { "Purity": "99% min", "Moisture": "12% max", "Admixture": "0.5% max" },
+    "packaging": "25kg / 50kg PP bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "moong-dal",
+    "name": "Moong Dal (Green Gram)",
+    "category": "Pulses",
+    "tagline": "Split & whole green gram",
+    "description": "Available in split (yellow) and whole (green) form. Sourced from certified farms and cleaned to export-grade standards.",
+    "specs": { "Purity": "99% min", "Moisture": "12% max", "Admixture": "0.5% max" },
+    "packaging": "25kg / 50kg PP bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1615485500834-bc10199bc727?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "masoor-dal",
+    "name": "Masoor Dal (Red Lentil)",
+    "category": "Pulses",
+    "tagline": "Split red lentils, quick-cooking",
+    "description": "Consistent colour and size, low breakage. A staple for split-lentil markets across the Middle East, Africa and Europe.",
+    "specs": { "Purity": "99% min", "Moisture": "12% max", "Admixture": "0.5% max" },
+    "packaging": "25kg / 50kg PP bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "urad-dal",
+    "name": "Urad Dal (Black Gram)",
+    "category": "Pulses",
+    "tagline": "Split & whole black gram",
+    "description": "Sorted for uniform grain size and minimal admixture, suited for both retail packs and bulk industrial buyers.",
+    "specs": { "Purity": "98% min", "Moisture": "12% max", "Admixture": "1% max" },
+    "packaging": "25kg / 50kg PP bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "rajma",
+    "name": "Rajma (Kidney Beans)",
+    "category": "Pulses",
+    "tagline": "Bold, uniform kidney beans",
+    "description": "Available in Chitra and Red varieties, hand-sorted for size and colour consistency, ideal for retail and food service.",
+    "specs": { "Purity": "98% min", "Moisture": "12% max", "Admixture": "1% max" },
+    "packaging": "25kg / 50kg PP bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1595475207225-428b62bda831?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "category": "Cereals",
+    "tagline": "Milling & feed grade wheat",
+    "description": "Sourced from prime wheat belts, cleaned and graded for milling quality flour production and feed applications.",
+    "specs": { "Purity": "98% min", "Moisture": "12% max", "Test Weight": "78kg/hl min" },
+    "packaging": "50kg PP bags, Bulk on request",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1600788907416-456578634209?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "basmati-rice",
+    "name": "Basmati Rice",
+    "category": "Cereals",
+    "tagline": "Long-grain aromatic rice",
+    "description": "Aged Basmati rice with extra-long grain length and natural aroma, sorted and polished to export specification.",
+    "specs": { "Grain Length": "8mm+", "Broken": "1% max", "Moisture": "13% max" },
+    "packaging": "5kg / 25kg / 50kg bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "non-basmati-rice",
+    "name": "Non-Basmati Rice",
+    "category": "Cereals",
+    "tagline": "Parboiled & white rice varieties",
+    "description": "Consistent quality parboiled and raw rice suited for bulk retail and institutional buyers across international markets.",
+    "specs": { "Broken": "5% / 25% options", "Moisture": "13% max" },
+    "packaging": "25kg / 50kg bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "maize",
+    "name": "Maize (Corn)",
+    "category": "Cereals",
+    "tagline": "Feed & industrial grade maize",
+    "description": "Yellow maize cleaned and dried to standard moisture levels, suitable for feed, starch and industrial processing.",
+    "specs": { "Moisture": "14% max", "Admixture": "2% max" },
+    "packaging": "50kg PP bags, Bulk on request",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1601593768799-76e2b7d90d5b?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "bajra",
+    "name": "Bajra (Pearl Millet)",
+    "category": "Cereals",
+    "tagline": "Nutrient-dense pearl millet",
+    "description": "Traditional Indian millet gaining global demand for its nutrition profile, cleaned and graded for export.",
+    "specs": { "Moisture": "12% max", "Admixture": "1% max" },
+    "packaging": "50kg PP bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1595855759920-86582396756c?auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    "id": "jowar",
+    "name": "Jowar (Sorghum)",
+    "category": "Cereals",
+    "tagline": "Gluten-free sorghum grain",
+    "description": "White and yellow jowar available, popular in gluten-free food production and animal feed markets.",
+    "specs": { "Moisture": "12% max", "Admixture": "1% max" },
+    "packaging": "50kg PP bags",
+    "origin": "India",
+    "image": "https://images.unsplash.com/photo-1614632537239-a97e2e1c9c93?auto=format&fit=crop&w=800&q=60"
+  }
+]
